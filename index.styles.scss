@@ -1,0 +1,71 @@
+$font: "Five Years Later", montserrat;
+
+#wheel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  background: #111;
+}
+
+#wheel .text {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+  user-select: none;
+  pointer-events: none;
+  font-family: $font;
+  font-weight: bold;
+  animation: rotate 50s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#wheel .text span {
+  position: absolute;
+  top: -300px;
+  text-transform: uppercase;
+  display: inline-block;
+  transform-origin: 0 300px;
+}
+
+#wheel .heading {
+  text-align: center;
+  transform-style: preserve-3d;
+}
+
+.marquee {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee2 span {
+  animation-delay: 15s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
