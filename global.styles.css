@@ -7,37 +7,37 @@ body {
 }
 
 .heading {
-  font-family: "Five Years Later", montserrat;
+  font-family: "Five Years Later", helvetica;
   font-size: clamp(4.5em, 5vw, 10em);
 }
 
 .heading-1 {
-  font-family: "Five Years Later", montserrat;
+  font-family: "Five Years Later", helvetica;
   font-size: 5em;
 }
 
 .heading-2 {
-  font-family: "Five Years Later", montserrat;
+  font-family: "Five Years Later", helvetica;
   font-size: 3em;
 }
 
 .heading-3 {
-  font-family: "Five Years Later", montserrat;
+  font-family: "Five Years Later", helvetica;
   font-size: 2em;
 }
 
 .heading-4 {
-  font-family: "Five Years Later", montserrat;
+  font-family: "Five Years Later", helvetica;
   font-size: 1.4em;
 }
 
 .heading-5 {
-  font-family: "Five Years Later", montserrat;
+  font-family: "Five Years Later", helvetica;
   font-size: 1em;
 }
 
 .heading-6 {
-  font-family: "Five Years Later", montserrat;
+  font-family: "Five Years Later", helvetica;
   font-size: 0.9em;
 }
 
